@@ -12,7 +12,7 @@ The app is built with clean architecture principles, Provider state management, 
 
 * 📊 **Live Market Data** – Fetches cryptocurrency prices from REST API
 * 🔄 **Real-Time Updates** – Live price updates via WebSocket
-* 🔍 **Search & Filter** – Search by symbol or description
+* 🔍 **Search & Filter** – Search by symbol
 * 📃 **Detailed View** – Individual coin analytics screen
 * ♻️ **Pull to Refresh** – Manual refresh support
 * ⚡ **Optimized List Rendering** – Uses `ListView.builder` with `itemExtent`
@@ -131,11 +131,6 @@ Update in:
 lib/utils/constants.dart
 ```
 
-```dart
-static const String baseUrl = 'http://10.0.2.2:3000/api';
-static const String wsUrl = 'ws://10.0.2.2:3000';
-```
-
 ---
 
 ## 📦 Build APK
@@ -150,17 +145,6 @@ flutter build apk --release
 
 **Mohd Faizan**
 Senior Flutter Developer
-
----
-
-## ⭐ Future Enhancements
-
-* 📈 Charts Integration
-* 🔔 Price Alerts
-* 📊 Portfolio Tracking
-* 🌐 Offline Caching
-* 🔒 Authentication
-* 🚀 CI/CD Pipeline
 
 ---
 
