@@ -154,8 +154,7 @@ class MarketDataProvider with ChangeNotifier {
       _filteredData.clear();
     } else {
       _filteredData = _marketData.where((item) {
-        return item.symbol.toLowerCase().contains(_searchQuery) ||
-            item.description.toLowerCase().contains(_searchQuery);
+        return item.symbol.toLowerCase().contains(_searchQuery);
       }).toList();
     }
   }
